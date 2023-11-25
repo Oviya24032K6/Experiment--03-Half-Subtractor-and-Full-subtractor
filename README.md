@@ -35,20 +35,55 @@ Write the detailed procedure here
 ## Program:
 /*
 Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: OVIYA P
+RegisterNumber:  23013207
 
-## Output:
+## HALF SUBRACTOR:
 
-## Truthtable
+## CODE FOR HALF SUBRACTOR:
 
+module halfsub(A,B,diff,borrow);
+input A,B; output diff,borrow;
+wire X;
+xor(diff,A,B);
+not(X,A);
+and(borrow,X,B);
+endmodule
 
+## TRUTH TABLE FOR HALF SUBRACTOR:
 
-##  RTL realization
+![image](https://github.com/Oviya24032K6/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147139999/3a9cd16c-b415-44b3-b4a0-0d079681678d)
 
+## RTL VIEW FOR HALF SUBRACTOR:
 
-## Timing diagram 
+![image](https://github.com/Oviya24032K6/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147139999/ca7d00b2-9b97-4430-9e9d-e0b2dfd688d9)
+
+## OUTPUT FOR HALF SUBRACTOR:
+
+![image](https://github.com/Oviya24032K6/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147139999/27e9b838-4a8d-4c99-bab4-4bc78309ba2e)
+
+## FULL SUBRACTOR
+
+## CODE FOR FULL SUBRACTOR:
+
+module expfour(a,b,c,difference,borrow);
+input a,b,c;
+output difference,borrow;
+assign difference=(a^b^c);
+assign borrow=(~a&(b^c)|(b&c));
+endmodule
+
+## TRUTH TABLE FOR FULL SUBRACTOR:
+
+![image](https://github.com/Oviya24032K6/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147139999/b51ede1d-9c37-4f9d-b59c-89cfa76fd0ac)
+
+## RTL VIEW FOR FULL SUBRACTOR:
+
+![image](https://github.com/Oviya24032K6/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147139999/5c8d793a-a4b4-497e-b3e6-f5f0a96cdce5)
+
+## OUTPUT FOR FULL SUBRACTOR:
+
+![image](https://github.com/Oviya24032K6/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147139999/460b6d9b-0fa6-4ddf-8925-fa7267d4cfe8)
 
 ## Result:
 Thus the half subtractor and full subtractor circuits are designed and the truth tables is verified using quartus software.
