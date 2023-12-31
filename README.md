@@ -55,7 +55,8 @@ endmodule
 
 ## TRUTH TABLE FOR HALF SUBRACTOR:
 
-![image](https://github.com/Oviya24032K6/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147139999/3a9cd16c-b415-44b3-b4a0-0d079681678d)
+![image](https://github.com/Oviya24032K6/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147139999/1ff3a028-dd13-4cc5-9f63-4952ff223dbe)
+
 
 ## RTL VIEW FOR HALF SUBRACTOR:
 
