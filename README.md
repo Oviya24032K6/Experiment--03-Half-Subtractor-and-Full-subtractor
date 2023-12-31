@@ -32,7 +32,7 @@ Connect the supply (+5V) to the circuit Switch ON the main switch If the output 
 /*
 Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
 Developed by: OVIYA P
-RegisterNumber:  23013207
+RegisterNumber:  212223110033
 
 ## HALF SUBRACTOR:
 
@@ -68,6 +68,8 @@ endmodule
 ## FULL SUBRACTOR
 
 ## CODE FOR FULL SUBRACTOR:
+# DEVELOPED BY: OVIYA P
+# REG NO: 212223110033
 
 module expfour(a,b,c,difference,borrow);
 
